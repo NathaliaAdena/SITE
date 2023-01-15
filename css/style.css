@@ -1,0 +1,172 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+/* css reset*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+a{
+    color: black;
+}
+
+header{
+    background-image: url(../img/pokeball-g00562c8c2_1920.jpg);
+    height: 154px;
+    padding-top: 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.container-grid{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu a{
+    color: white;
+    text-decoration: none;
+    font-family: "Inter";
+}
+
+.icone-menu{
+    height: 40px;
+     
+}
+
+#barras{
+    display: none;
+
+}
+
+.banner{
+height: 907px;
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover  ;
+}
+
+.banner-1{
+    background-image: url(../img/harley\ out.png)
+}
+
+.banner-2{
+    background-image: url(../img/flareon\ out.png)
+}
+
+.banner-3{
+    background-image: url(../img/mother\ out.png)
+}
+
+.banner-4{
+    background-image: url(../img/nine\ out.png)
+}
+
+.banner-5{
+    background-image: url(../img/roxie\ out.png)
+}
+
+.banner-6{
+    background-image: url(../img/trei\ out.png)
+}
+
+.conteudo-banner h1{
+    color: white;
+    font-family: "Inter";
+    font-size: 80px;
+}
+
+.conteudo-banner p{
+    color: white;
+    font-family: "Inter";
+    font-size: 20px;
+}
+
+.conteudo-banner a{
+    padding: 15px;
+    background-color: red;
+    color: white;
+    font-family: "Inter";
+    font-size: 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 25px;
+    border-radius: 5px;
+}
+
+.conteudo-banner{
+    width: 600px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.posicionamento-banner{
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+    height: 100%;
+}
+
+.rodape{
+    background-image: url(../img/pokeball-g00562c8c2_1920.jpg);
+    height: 180px;
+    padding-top: 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+@media screen and (max-width: 1200px) {
+    .container-grid{
+        width: 1000px;        
+    }
+    
+}
+
+@media screen and (max-width: 1000px) {
+    #barras{
+        display: inline-block;
+    }
+
+    .menu{ 
+        display: none;
+
+        position: absolute;
+        top: 91px;
+        right: 0px;
+
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        
+        background-color: black;
+        height: 400px;
+    }
+
+    .menu-ativo{
+        display: flex;
+    }
+
+
+
+    .menu a{
+        font-size: 20px;
+    }
+
+    .container-grid{
+        width: 800px;        
+    }
+    
+}
